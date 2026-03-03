@@ -1,0 +1,29 @@
+Using the Old Man glitch and Item Duplication glitch, you can get rid of Key Items in Pokémon Red/Blue.
+
+Be VERY CAREFUL:
+1. Having a stack of 255 items in your bag is dangerous and will break your game if not handled carefully. Please follow the exact steps listed here.
+2. Getting rid of some Key Items will lock you out of parts of the game. For example, getting rid of the Secret Key will prevent you from ever entering the Cinnabar Gym again, so be careful. The Town Map, Itemfinder, Old Rod, Card Key (after unlocking every gate in Silph Co.), and HM05 (if you don't want to teach a Pokémon FLASH) can be safely discarded.
+3. Save BEFORE attempting this glitch, and save after completing IF it is successful and you are sure there were no negative side effects.
+
+Steps:
+1. Get 2 disposable items; we will refer to them as ITEM_A and ITEM_B. ITEM_B should have quantity 1. You should also have at least 1 item in your PC storage.
+2. Put ITEM_A in the first slot of your inventory. Put ITEM_B in the 6th slot of your inventory.
+3. Perform the Old Man glitch and encounter a MissingNo. (or 'M) Run away from the encounter immediately.
+4. You now have 129x ITEM_B. Toss 2 of them to get this number down to 127.
+5. Encounter MissingNo. again. Run away from the encounter immediately.
+6. You now have 255x ITEM_B in your sixth slot. Use SELECT to move this to the 2nd slot of your inventory
+7. Put the Key Item you wish to delete in the LAST slot of your inventory.
+8. Toss the entire stack of ITEM_A in the first slot. It will automatically be replaced with a copy of the stack of 255 ITEM_B. Your inventory is now in an unstable state, proceed with extreme caution.
+9. Withdraw any item from your PC box. This completely replaces the last item in your inventory, which should have been the key item you wanted to delete. Your inventory is no longer in an unstable state, and you can freely deposit/toss any item below the second slot.
+10. If you want to delete another key item, continue the steps below. If you want to stop, go to the "Cleanup" section.
+11. Place the next key item you want to delete in the last inventory slot.
+12. Toss the entire stack of 255x ITEM_B that is in the FIRST slot.
+13. Jump to Step 9.
+
+Cleanup:
+After executing this glitch, the first and second slot of your inventory should both be 255x ITEM_B. To stop any further game-breaking, follow the steps below:
+1. Toss 1x ITEM_B from the second slot
+2. Toss 1x ITEM_B from the first slot
+3. Toss the entire stack for both slots (if you want)
+
+Note: receiving an item that you have 100 or more of in a single stack will break up the stack into stacks of 99x or less.

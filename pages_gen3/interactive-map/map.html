@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon FireRed/LeafGreen Map - UltraPoké Resource Center</title>
+  <link rel="shortcut icon" type="image/x-icon" href="../../favicon.ico">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link your CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- TOP BAR -->
+  <div class="topbar">
+    <button id="backBtn">←</button>
+    <button id="forwardBtn">→</button>
+    <p>Pokémon FireRed/LeafGreen Map</p>
+  </div>
+
+  <!-- MAIN APP -->
+  <div class="app">
+    <div class="left-sidebar">
+        <h3>Cities</h3>
+        <ul id="cityList"></ul>
+        <h3>Routes</h3>
+        <ul id="routeList"></ul>
+        <h3>Dungeons</h3>
+        <ul id="dungeonList"></ul>
+        <h3>Minor Maps</h3>
+        <details><summary>Show/Hide List</summary><ul id="minorMapList"></ul></details>
+    </div>
+    <div class="viewport">
+      <div class="camera" id="camera"></div>
+    </div>
+    <div class="sidebar" id="sidebar"></div>
+  </div>
+
+  <!-- TOOLTIP -->
+  <div id="tooltip" class="tooltip"></div>
+
+  <!-- Scripts (bottom of body, in this order) -->
+  <script src="js/maps.js"></script>
+  <script src="js/mapLoader.js"></script>
+  <script src="js/objects.js"></script>
+  <script src="js/history.js"></script>
+  <script src="js/interaction.js"></script>
+  <script src="js/camera.js"></script>
+
+</body>
+</html>
