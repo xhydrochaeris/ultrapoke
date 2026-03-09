@@ -484,19 +484,936 @@ const MAPS = {
         y: 0,        // tile coordinate
         w: 11,         // width in tiles
         h: 10.5,         // height in tiles
-        name: "Gate"
+        name: "Gate (Exit)"
       },{
         x: 24,        // tile coordinate
         y: 62.5,        // tile coordinate
         w: 11,         // width in tiles
         h: 6.5,         // height in tiles
-        name: "Gate"
+        name: "Gate (Entrance)"
       }
     ],
     warps: {
       north: "Gate_VF_Route2",
       south: "Gate_Route2_VF"
     }
+  },
+  SilphCo_2F: {
+    mapType: "dungeon",
+    image: "Silph_Co_2F_FRLG.png",
+    width: 36,
+    height: 22,
+    sidebarHTML: "<h2>Silph Co. - 2F</h2><br> \
+                  <h3>Items:</h3><ul> \
+                  <li>Not implemented yet</li></ul><br>\
+                  <h3>Trainers(not implemented):</h3>",
+    objects: [
+      {
+        type: "item",
+        tileX: 5,
+        tileY: 8,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 5,
+        tileY: 9,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 6,
+        tileY: 8,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 6,
+        tileY: 9,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 5,
+        tileY: 15,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 5,
+        tileY: 16,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 6,
+        tileY: 15,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 6,
+        tileY: 16,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "door",
+        tileX: 15,
+        tileY: 6,
+        name: "Warp 1",
+        destination: "SilphCo_8F"
+      },
+      {
+        type: "door",
+        tileX: 33,
+        tileY: 19,
+        name: "Warp 2",
+        destination: "SilphCo_8F"
+      },
+      {
+        type: "door",
+        tileX: 2,
+        tileY: 6,
+        name: "Warp 3",
+        destination: "SilphCo_3F"
+      },
+      {
+        type: "door",
+        tileX: 7,
+        tileY: 19,
+        name: "Warp 4",
+        destination: "SilphCo_6F"
+      }
+    ],
+    regions: [],
+    warps: {}
+  },
+  SilphCo_3F: {
+    mapType: "dungeon",
+    image: "Silph_Co_3F_FRLG.png",
+    width: 36,
+    height: 22,
+    sidebarHTML: "<h2>Silph Co. - 3F</h2><br> \
+                  <h3>Items:</h3><ul> \
+                  <li>Not implemented yet</li></ul><br>\
+                  <h3>Trainers(not implemented):</h3>",
+    objects: [
+      {
+        type: "item",
+        tileX: 9,
+        tileY: 12,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 9,
+        tileY: 13,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 10,
+        tileY: 12,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 10,
+        tileY: 13,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 20,
+        tileY: 12,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 20,
+        tileY: 13,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 21,
+        tileY: 12,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 21,
+        tileY: 13,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "door",
+        tileX: 4,
+        tileY: 6,
+        name: "Warp 1",
+        destination: "SilphCo_5F"
+      },
+      {
+        type: "door",
+        tileX: 33,
+        tileY: 5,
+        name: "Warp 3",
+        destination: "SilphCo_2F"
+      },
+      {
+        type: "door",
+        tileX: 32,
+        tileY: 20,
+        name: "Warp 2",
+        destination: "SilphCo_3F"
+      },
+      {
+        type: "door",
+        tileX: 29,
+        tileY: 14,
+        name: "Warp 2",
+        destination: "SilphCo_3F"
+      },
+      {
+        type: "door",
+        tileX: 3,
+        tileY: 20,
+        name: "Warp 4",
+        destination: "SilphCo_5F"
+      },
+      {
+        type: "door",
+        tileX: 13,
+        tileY: 14,
+        name: "Warp 5",
+        destination: "SilphCo_7F"
+      },
+      {
+        type: "door",
+        tileX: 2,
+        tileY: 14,
+        name: "Warp 6",
+        destination: "SilphCo_9F"
+      },
+    ],
+    regions: [],
+    warps: {}
+  },
+  SilphCo_4F: {
+    mapType: "dungeon",
+    image: "Silph_Co_4F_FRLG.png",
+    width: 36,
+    height: 22,
+    sidebarHTML: "<h2>Silph Co. - 4F</h2><br> \
+                  <h3>Items:</h3><ul> \
+                  <li>Not implemented yet</li></ul><br>\
+                  <h3>Trainers(not implemented):</h3>",
+    objects: [
+      {
+        type: "item",
+        tileX: 3,
+        tileY: 16,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 3,
+        tileY: 17,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 4,
+        tileY: 16,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 4,
+        tileY: 17,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 14,
+        tileY: 11,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 14,
+        tileY: 12,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 15,
+        tileY: 11,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 15,
+        tileY: 12,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "door",
+        tileX: 2,
+        tileY: 20,
+        name: "Warp 4",
+        destination: "SilphCo_10F"
+      },
+      {
+        type: "door",
+        tileX: 18,
+        tileY: 14,
+        name: "Warp 1",
+        destination: "SilphCo_10F"
+      },
+      {
+        type: "door",
+        tileX: 12,
+        tileY: 9,
+        name: "Warp 2",
+        destination: "SilphCo_10F"
+      },
+      {
+        type: "door",
+        tileX: 18,
+        tileY: 6,
+        name: "Warp 3",
+        destination: "SilphCo_6F"
+      },
+    ],
+    regions: [],
+    warps: {}
+  },
+  SilphCo_5F: {
+    mapType: "dungeon",
+    image: "Silph_Co_5F_FRLG.png",
+    width: 36,
+    height: 22,
+    sidebarHTML: "<h2>Silph Co. - 5F</h2><br> \
+                  <h3>Items:</h3><ul> \
+                  <li>Not implemented yet</li></ul><br>\
+                  <h3>Trainers(not implemented):</h3>",
+    objects: [
+      {
+        type: "item",
+        tileX: 7,
+        tileY: 18,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 7,
+        tileY: 19,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 8,
+        tileY: 18,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 8,
+        tileY: 19,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 7,
+        tileY: 9,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 7,
+        tileY: 10,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 8,
+        tileY: 9,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 8,
+        tileY: 10,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 18,
+        tileY: 13,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 18,
+        tileY: 14,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 19,
+        tileY: 13,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 19,
+        tileY: 14,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "door",
+        tileX: 15,
+        tileY: 7,
+        name: "Warp 1",
+        destination: "SilphCo_3F"
+      },
+      {
+        type: "door",
+        tileX: 33,
+        tileY: 5,
+        name: "Warp 2",
+        destination: "SilphCo_7F"
+      },
+      {
+        type: "door",
+        tileX: 10,
+        tileY: 20,
+        name: "Warp 3",
+        destination: "SilphCo_9F"
+      },
+      {
+        type: "door",
+        tileX: 2,
+        tileY: 20,
+        name: "Warp 4",
+        destination: "SilphCo_3F"
+      },
+      {
+        type: "item",
+        tileX: 1,
+        tileY: 18,
+        name: "TM01 (Focus Punch)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+    ],
+    regions: [],
+    warps: {}
+  },
+  SilphCo_6F: {
+    mapType: "dungeon",
+    image: "Silph_Co_6F_FRLG.png",
+    width: 31,
+    height: 19,
+    sidebarHTML: "<h2>Silph Co. - 6F</h2><br> \
+                  <h3>Items:</h3><ul> \
+                  <li>Not implemented yet</li></ul><br>\
+                  <h3>Trainers(not implemented):</h3>",
+    objects: [
+      {
+        type: "item",
+        tileX: 5,
+        tileY: 15,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 5,
+        tileY: 16,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 6,
+        tileY: 15,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 6,
+        tileY: 16,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "door",
+        tileX: 29,
+        tileY: 5,
+        name: "Warp 4",
+        destination: "SilphCo_2F"
+      },
+      {
+        type: "door",
+        tileX: 2,
+        tileY: 6,
+        name: "Warp 3",
+        destination: "SilphCo_4F"
+      }
+    ],
+    regions: [],
+    warps: {}
+  },
+  SilphCo_7F: {
+    mapType: "dungeon",
+    image: "Silph_Co_7F_FRLG.png",
+    width: 31,
+    height: 19,
+    sidebarHTML: "<h2>Silph Co. - 7F</h2><br> \
+                  <h3>Items:</h3><ul> \
+                  <li>Not implemented yet</li></ul><br>\
+                  <h3>Trainers(not implemented):</h3>",
+    objects: [
+      {
+        type: "item",
+        tileX: 24,
+        tileY: 7,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 24,
+        tileY: 8,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 25,
+        tileY: 7,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 25,
+        tileY: 8,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 25,
+        tileY: 13,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 25,
+        tileY: 14,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 26,
+        tileY: 13,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 26,
+        tileY: 14,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "door",
+        tileX: 25,
+        tileY: 17,
+        name: "Warp 2",
+        destination: "SilphCo_5F"
+      },
+      {
+        type: "door",
+        tileX: 5,
+        tileY: 4,
+        name: "Warp 5",
+        destination: "SilphCo_3F"
+      },
+      {
+        type: "door",
+        tileX: 5,
+        tileY: 8,
+        name: "Warp 1",
+        destination: "SilphCo_11F"
+      }
+    ],
+    regions: [],
+    warps: {}
+  },
+  SilphCo_8F: {
+    mapType: "dungeon",
+    image: "Silph_Co_8F_FRLG.png",
+    width: 31,
+    height: 19,
+    sidebarHTML: "<h2>Silph Co. - 8F</h2><br> \
+                  <h3>Items:</h3><ul> \
+                  <li>Not implemented yet</li></ul><br>\
+                  <h3>Trainers(not implemented):</h3>",
+    objects: [
+      {
+        type: "item",
+        tileX: 5,
+        tileY: 10,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 5,
+        tileY: 11,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 6,
+        tileY: 10,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 6,
+        tileY: 11,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "door",
+        tileX: 2,
+        tileY: 17,
+        name: "Warp 1",
+        destination: "SilphCo_2F"
+      },
+      {
+        type: "door",
+        tileX: 10,
+        tileY: 6,
+        name: "Warp 2",
+        destination: "SilphCo_2F"
+      },
+      {
+        type: "door",
+        tileX: 2,
+        tileY: 12,
+        name: "Warp 3",
+        destination: "SilphCo_8F"
+      },
+      {
+        type: "door",
+        tileX: 11,
+        tileY: 10,
+        name: "Warp 3",
+        destination: "SilphCo_8F"
+      }
+    ],
+    regions: [],
+    warps: {}
+  },
+  SilphCo_9F: {
+    mapType: "dungeon",
+    image: "Silph_Co_9F_FRLG.png",
+    width: 31,
+    height: 19,
+    sidebarHTML: "<h2>Silph Co. - 9F</h2><br> \
+                  <h3>Items:</h3><ul> \
+                  <li>Not implemented yet</li></ul><br>\
+                  <h3>Trainers(not implemented):</h3>",
+    objects: [
+      {
+        type: "item",
+        tileX: 21,
+        tileY: 6,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 21,
+        tileY: 7,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 22,
+        tileY: 6,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 22,
+        tileY: 7,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 21,
+        tileY: 12,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 21,
+        tileY: 13,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 22,
+        tileY: 12,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 22,
+        tileY: 13,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 12,
+        tileY: 16,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 12,
+        tileY: 17,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 13,
+        tileY: 16,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 13,
+        tileY: 17,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 2,
+        tileY: 10,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 2,
+        tileY: 11,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 3,
+        tileY: 10,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 3,
+        tileY: 11,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "door",
+        tileX: 22,
+        tileY: 18,
+        name: "Warp 3",
+        destination: "SilphCo_5F"
+      },
+      {
+        type: "door",
+        tileX: 9,
+        tileY: 4,
+        name: "Warp 6",
+        destination: "SilphCo_3F"
+      }
+    ],
+    regions: [],
+    warps: {}
+  },
+  SilphCo_10F: {
+    mapType: "dungeon",
+    image: "Silph_Co_10F_FRLG.png",
+    width: 17,
+    height: 19,
+    sidebarHTML: "<h2>Silph Co. - 10F</h2><br> \
+                  <h3>Items:</h3><ul> \
+                  <li>Not implemented yet</li></ul><br>\
+                  <h3>Trainers(not implemented):</h3>",
+    objects: [
+      {
+        type: "item",
+        tileX: 12,
+        tileY: 11,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 12,
+        tileY: 12,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 13,
+        tileY: 11,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 13,
+        tileY: 12,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "door",
+        tileX: 14,
+        tileY: 9,
+        name: "Warp 1",
+        destination: "SilphCo_4F"
+      },
+      {
+        type: "door",
+        tileX: 10,
+        tileY: 14,
+        name: "Warp 2",
+        destination: "SilphCo_4F"
+      },
+      {
+        type: "door",
+        tileX: 14,
+        tileY: 17,
+        name: "Warp 4",
+        destination: "SilphCo_4F"
+      }
+    ],
+    regions: [],
+    warps: {}
+  },
+    SilphCo_11F: {
+    mapType: "dungeon",
+    image: "Silph_Co_11F_FRLG.png",
+    width: 17,
+    height: 20,
+    sidebarHTML: "<h2>Silph Co. - 11F</h2><br> \
+                  <h3>Items:</h3><ul> \
+                  <li>Not implemented yet</li></ul><br>\
+                  <h3>Trainers(not implemented):</h3>",
+    objects: [
+      {
+        type: "item",
+        tileX: 5,
+        tileY: 16,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 5,
+        tileY: 17,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 6,
+        tileY: 16,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "item",
+        tileX: 6,
+        tileY: 17,
+        name: "Locked (needs card key)",
+        sprite: "Gen_III_Item_Ball.png"
+      },
+      {
+        type: "door",
+        tileX: 2,
+        tileY: 5,
+        name: "Warp 1",
+        destination: "SilphCo_7F"
+      }
+    ],
+    regions: [],
+    warps: {}
   },
   PewterCity: {
     mapType: "city"},
